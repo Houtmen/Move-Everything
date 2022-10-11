@@ -7,12 +7,20 @@ Move is a programming language for writing safe smart contracts originally devel
 
 ## Contents
 
-- [Installation](#Installation)
-- [Move-Powered Blockchains](#move-powered-blockchains)
+- [Blog Posts](#blog-posts)
 - [Books](#books)
-- [Tutorials](#tutorials)
-- [Community](#community)
 - [Code](#code)
+- [Community](#community)
+- [IDEs](#ides)
+- [Installation](#installation)
+- [Move-Powered Blockchains](#move-powered-blockchains)
+- [Package Managers](#package-managers)
+- [Papers](#papers)
+  - [Language Design](#language-design)
+  - [Static Analysis and Verification](#static-analysis-and-verification)
+- [Podcasts](#podcasts)
+- [Tools](#tools)
+- [Tutorials](#tutorials)
   - [Fungible Tokens](#fungible-tokens)
   - [Non-Fungible Tokens](#non-fungible-tokens)
   - [DeFi](#defi)
@@ -22,17 +30,9 @@ Move is a programming language for writing safe smart contracts originally devel
   - [Frameworks](#frameworks)
   - [Libraries](#libraries)
   - [Miscellaneous](#miscellaneous)
-- [Tools](#tools)
-- [IDEs](#ides)
-- [Package Managers](#package-managers)
-- [Wallets](#wallets)
 - [SDKs](#sdks)
-- [Papers](#papers)
-  - [Language Design](#language-design)
-  - [Static Analysis and Verification](#static-analysis-and-verification)
 - [Videos](#videos)
-- [Podcasts](#podcasts)
-- [Blog Posts](#blog-posts)
+- [Wallets](#wallets)
 
 ## Installation
 
