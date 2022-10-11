@@ -1,5 +1,5 @@
 <!--lint disable double-link-->
-# Awesome Move [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Move Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of code and content from the [Move](https://github.com/move-language/move) programming language community.
 
