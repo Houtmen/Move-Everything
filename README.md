@@ -126,6 +126,7 @@ Code written in Move.
 ### Cross-Chain Bridge
 
 - [Poly Bridge](https://github.com/Elements-Studio/poly-stc-contracts) - The first Cross-Chain Bridge between Move and EVM. Deployed on Starcoin.
+- [Wormhole]([https://github.com/Elements-Studio/poly-stc-contracts](https://wormholecrypto.medium.com/wormhole-chains-aptos-5c17c31fed67)) - Confirmed to bridge cross chain from day 1 of launch on Aptos.
 
 ### Accounts
 
@@ -237,4 +238,4 @@ The ability to separate blockchain-specific framework logic from the generic fun
 
 ## Contributing
 
-Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+Contributions welcome! Please let me know if you got some tools missing.
