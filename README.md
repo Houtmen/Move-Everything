@@ -7,7 +7,7 @@ Move is a programming language for writing safe smart contracts originally devel
 
 ## Contents
 
-- [Overview](#overview)
+- [Installation](#Installation)
 - [Move-Powered Blockchains](#move-powered-blockchains)
 - [Books](#books)
 - [Tutorials](#tutorials)
@@ -34,10 +34,9 @@ Move is a programming language for writing safe smart contracts originally devel
 - [Podcasts](#podcasts)
 - [Blog Posts](#blog-posts)
 
-## Overview
+## Installation
 
 - [Installation](https://github.com/move-language/move/tree/main/language/tools/move-cli#installation)
-- [Problem Statement](https://github.com/mystenlabs/awesome-move/blob/main/docs/problem_statement.md#problem-statement)
 
 ## Move-Powered Blockchains
 
