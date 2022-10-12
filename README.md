@@ -196,10 +196,6 @@ The ability to separate blockchain-specific framework logic from the generic fun
 
 - [Suiet Wallet Kit](https://github.com/suiet/wallet-kit) - A package support all Sui wallets with customizable UI.
 
-## SDKs
-- [go-sui-sdk](https://github.com/coming-chat/go-sui-sdk) - Sui Golang SDK.
-- [go-aptos-sdk](https://github.com/coming-chat/go-aptos-sdk) - Aptos Golang SDK.
-
 ## Papers
 
 ### Language Design
@@ -220,6 +216,10 @@ The ability to separate blockchain-specific framework logic from the generic fun
 
 - [Move and Sui with Sam Blackshear from Mysten Labs](https://zeroknowledge.fm/228-2/)
 - [Move AMA covering Move origin story](https://twitter.com/i/spaces/1jMKgepNOleJL)
+
+## SDKs
+- [go-sui-sdk](https://github.com/coming-chat/go-sui-sdk) - Sui Golang SDK.
+- [go-aptos-sdk](https://github.com/coming-chat/go-aptos-sdk) - Aptos Golang SDK.
 
 ## Videos
 
