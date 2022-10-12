@@ -48,7 +48,7 @@ Move is a programming language for writing safe smart contracts originally devel
 
 ## Documentation
 - [Aptos](https://aptos.dev/) - Maintaind by Aptos team
-- [Sui](https://docs.sui.io/)) - Maintaind by Mystenlabs team
+- [Sui](https://docs.sui.io/) - Maintaind by Mystenlabs team
 
 ## IDEs
 
