@@ -34,6 +34,7 @@ Move is a programming language for writing safe smart contracts originally devel
 - [SDKs](#sdks)
 - [Videos](#videos)
 - [Wallets](#wallets)
+- [Whitepaper](#whitepaper)
 
 
 ## Books
@@ -245,6 +246,10 @@ The ability to separate blockchain-specific framework logic from the generic fun
 ### Wallet Kits
 
 - [Suiet Wallet Kit](https://github.com/suiet/wallet-kit) - A package support all Sui wallets with customizable UI.
+
+### Whitepaper
+
+- [Aptos Whitepaper](https://aptos.dev/aptos-white-paper/aptos-white-paper-index/) - Whitepaper of the Aptos Framework.
 
 ## Contributing
 
