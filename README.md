@@ -45,10 +45,6 @@ Move is a programming language for writing safe smart contracts originally devel
 - [Comparing Move and Rust smart contract development](https://medium.com/@kklas/smart-contract-development-move-vs-rust-4d8f84754a8f)
 - [Comparing Diem-style Move and Sui Move](https://sui.io/resources-move/why-we-created-sui-move)
 
-## Installation
-
-- [Installation](https://github.com/move-language/move/tree/main/language/tools/move-cli#installation)
-
 ## IDEs
 
 - [Move VS Code plugin](https://marketplace.visualstudio.com/items?itemName=move.move-analyzer) - Maintained by the Move core team ([source code](https://github.com/move-language/move/tree/main/language/move-analyzer)).
@@ -57,6 +53,10 @@ Move is a programming language for writing safe smart contracts originally devel
 - [Starcoin IDE](https://marketplace.visualstudio.com/items?itemName=starcoinorg.starcoin-ide) - Maintained by the Starcoin team ([source code](https://github.com/starcoinorg/starcoin-ide)).
 - [Move Vim](https://github.com/rvmelkonian/move.vim) - Maintained by [@rvmelkonian](https://github.com/rvmelkonian/).
 - [move-mode](https://github.com/amnn/move-mode) - Major mode for Emacs maintained by [@amnn](https://github.com/amnn/).
+
+## Installation
+
+- [Installation](https://github.com/move-language/move/tree/main/language/tools/move-cli#installation)
 
 ## Move-Powered Blockchains
 
