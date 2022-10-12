@@ -11,6 +11,7 @@ Move is a programming language for writing safe smart contracts originally devel
 - [Books](#books)
 - [Code](#code)
 - [Community](#community)
+- [Documentation](#documentation)
 - [IDEs](#ides)
 - [Installation](#installation)
 - [Move-Powered Blockchains](#move-powered-blockchains)
@@ -44,6 +45,10 @@ Move is a programming language for writing safe smart contracts originally devel
 ## Blog Posts
 - [Comparing Diem-style Move and Sui Move](https://sui.io/resources-move/why-we-created-sui-move)
 - [Comparing Move and Rust smart contract development](https://medium.com/@kklas/smart-contract-development-move-vs-rust-4d8f84754a8f)
+
+## Documentation
+- [Aptos](https://aptos.dev/) - Maintaind by Aptos team
+- [Sui](https://docs.sui.io/)) - Maintaind by Mystenlabs team
 
 ## IDEs
 
