@@ -1,7 +1,7 @@
 <!--lint disable double-link-->
 # Move Tools 
 
-> A list of code, tools and content from the [Move](https://github.com/move-language/move) programming language community.
+> A list of code, tools and content from the [Move](https://github.com/move-language/move) programming language.
 
 Move is a programming language for writing safe smart contracts originally developed at Facebook to power the Libra blockchain. Move is designed to be a platform-agnostic language to enable common libraries, tooling, and developer communities across diverse blockchains with vastly different data and execution models. Move's ambition is to become the "JavaScript of web3" in terms of ubiquity--when developers want to quickly write safe code involving assets, it should be written in Move.
 
