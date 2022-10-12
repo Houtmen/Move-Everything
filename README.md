@@ -34,6 +34,17 @@ Move is a programming language for writing safe smart contracts originally devel
 - [Videos](#videos)
 - [Wallets](#wallets)
 
+
+## Books
+
+- [Move Book](https://move-language.github.io/move/) - Move book maintained by the Move core team ([中文](https://github.com/move-language/move/tree/main/language/documentation/book/translations/move-book-zh)).
+- [Move Book](https://move-book.com/) - Move book maintained by [@damirka](https://github.com/damirka) ([中文](https://move-book.com/cn/)).
+- [Move Patterns](https://www.move-patterns.com/) - A book on Move software design patterns maintained by [@villesundell](https://github.com/villesundell).
+
+## Blog Posts
+- [Comparing Move and Rust smart contract development](https://medium.com/@kklas/smart-contract-development-move-vs-rust-4d8f84754a8f)
+- [Comparing Diem-style Move and Sui Move](https://sui.io/resources-move/why-we-created-sui-move)
+
 ## Installation
 
 - [Installation](https://github.com/move-language/move/tree/main/language/tools/move-cli#installation)
@@ -48,12 +59,6 @@ Move is a programming language for writing safe smart contracts originally devel
 - [Celo](https://github.com/celo-org/celo-blockchain) - Blockchain with EVM and MoveVM ([coming soon](https://www.businesswire.com/news/home/20210921006104/en/Celo-Sets-Sights-On-Becoming-Fastest-EVM-Chain-Through-Collaboration-With-Mysten-Labs)).
 - [Diem](https://github.com/diem/diem) - The original Move based blockchain from Meta (form. Libra by Facebook) (discontinued).
 - [ChainX](https://github.com/chainx-org/ChainX) - Bitcoin's layer2 smart contract network has already supported WASM and EVM, and is supporting MoveVM (in [mainnet](https://scan.chainx.org)).
-
-## Books
-
-- [Move Book](https://move-language.github.io/move/) - Move book maintained by the Move core team ([中文](https://github.com/move-language/move/tree/main/language/documentation/book/translations/move-book-zh)).
-- [Move Book](https://move-book.com/) - Move book maintained by [@damirka](https://github.com/damirka) ([中文](https://move-book.com/cn/)).
-- [Move Patterns](https://www.move-patterns.com/) - A book on Move software design patterns maintained by [@villesundell](https://github.com/villesundell).
 
 ## Tutorials
 
@@ -230,10 +235,6 @@ The ability to separate blockchain-specific framework logic from the generic fun
 
 - [Move and Sui with Sam Blackshear from Mysten Labs](https://zeroknowledge.fm/228-2/)
 - [Move AMA covering Move origin story](https://twitter.com/i/spaces/1jMKgepNOleJL)
-
-## Blog Posts
-- [Comparing Move and Rust smart contract development](https://medium.com/@kklas/smart-contract-development-move-vs-rust-4d8f84754a8f)
-- [Comparing Diem-style Move and Sui Move](https://sui.io/resources-move/why-we-created-sui-move)
 
 ## Contributing
 
