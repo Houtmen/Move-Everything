@@ -60,6 +60,56 @@ Move is a programming language for writing safe smart contracts originally devel
 - [Diem](https://github.com/diem/diem) - The original Move based blockchain from Meta (form. Libra by Facebook) (discontinued).
 - [ChainX](https://github.com/chainx-org/ChainX) - Bitcoin's layer2 smart contract network has already supported WASM and EVM, and is supporting MoveVM (in [mainnet](https://scan.chainx.org)).
 
+
+## Tools
+
+- [Move Package Manager](https://github.com/move-language/move/tree/main/language/tools/move-cli) - Like `cargo` or `npm` for Move: single CLI (and corresponding Rust API's for other tools to hook into) for building, running, testing, debugging, and verifying Move [packages](https://move-language.github.io/move/). Maintained by the Move core team.
+- [Move Prover](https://github.com/move-language/move/tree/main/language/move-prover) - Formal verification of user-defined specifications written in Move source code. Maintained by the Move core team.
+- [Move Read/Write Set Analyzer](https://github.com/move-language/move/tree/main/language/tools/read-write-set) - Static analysis tool for computing an overapproximation of the global memory touched by a Move program. Maintained by the Move core team.
+- [Move Playground JS Library](https://github.com/imcoding-online/js-move-playground) - Wrapping [Move Playground by Pontem](https://playground.pontem.network/) as a JavaScript library for browser. You can use it to build your own Move Playground.
+
+## IDEs
+
+- [Move VS Code plugin](https://marketplace.visualstudio.com/items?itemName=move.move-analyzer) - Maintained by the Move core team ([source code](https://github.com/move-language/move/tree/main/language/move-analyzer)).
+- [Move IntelliJ plugin](https://plugins.jetbrains.com/plugin/14721-move-language) - Maintained by the Pontem team ([source code](https://github.com/pontem-network/intellij-move)).
+- [Move Playground](https://playground.pontem.network/) - Like [Remix](https://remix.ethereum.org/) for Move. Alpha version of a Web IDE. See [instructions](https://gist.github.com/borispovod/64b6d23741d8c1f4b0b958a3a74aa68d). Maintained by the Pontem team.
+- [Starcoin IDE](https://marketplace.visualstudio.com/items?itemName=starcoinorg.starcoin-ide) - Maintained by the Starcoin team ([source code](https://github.com/starcoinorg/starcoin-ide)).
+- [Move Vim](https://github.com/rvmelkonian/move.vim) - Maintained by [@rvmelkonian](https://github.com/rvmelkonian/).
+- [move-mode](https://github.com/amnn/move-mode) - Major mode for Emacs maintained by [@amnn](https://github.com/amnn/).
+
+## Package Managers
+- [Movey](https://www.movey.net/) - A crates.io-style repository of Move packages.
+
+### Wallet Adapters
+
+- [Sui Wallet](https://github.com/MystenLabs/sui/tree/main/wallet-adapter) - Sui Wallet Adapter.
+- [Suiet Wallet](https://github.com/suiet/wallet-adapter) - Suiet Wallet Adapter.
+
+### Wallet Kits
+
+- [Suiet Wallet Kit](https://github.com/suiet/wallet-kit) - A package support all Sui wallets with customizable UI.
+
+## Papers
+
+### Language Design
+
+- [Move: A Language With Programmable Resources](https://developers.diem.com/papers/diem-move-a-language-with-programmable-resources/2019-06-18.pdf) - This was the original Move white paper released in 2018. Many aspects of this are now out of date (e.g., the syntax and description of the bytecode instructions), but the first two sections are worth a read for explaining the difficulties of programming with assets and how Move tackles them.
+- [Robust Safety for Move](https://arxiv.org/abs/2110.05043)
+- [The Move Borrow Checker](https://arxiv.org/abs/2205.05181)
+- [Resources: A Safe Language Abstraction for Money](https://arxiv.org/abs/2004.05106)
+
+### Static Analysis and Verification
+
+- [Fast and Reliable Formal Verification of Smart Contracts with the Move Prover](https://arxiv.org/abs/2110.08362)
+- [The Move Prover](https://research.facebook.com/publications/the-move-prover/)
+- [Verification of Programs Written in Libra's Move Language](https://ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/Constantin_M%C3%BCller_MS_Report.pdf)
+- [Exact and Linear-Time Gas-Cost Analysis](https://research.facebook.com/publications/exact-and-linear-time-gas-cost-analysis/)
+
+## Podcasts
+
+- [Move and Sui with Sam Blackshear from Mysten Labs](https://zeroknowledge.fm/228-2/)
+- [Move AMA covering Move origin story](https://twitter.com/i/spaces/1jMKgepNOleJL)
+
 ## Tutorials
 
 - [Implementing, testing, and verifying a fungible token](https://github.com/move-language/move/tree/main/language/documentation/tutorial) - Maintained by the Move core team.
@@ -107,7 +157,6 @@ Code written in Move.
 - [MultiToken](https://github.com/diem/diem/blob/main/diem-move/diem-framework/experimental/sources/MultiToken.move) - An ERC1155-like token. From Diem.
 - [NFTGallery](https://github.com/diem/diem/blob/main/diem-move/diem-framework/experimental/sources/NFTGallery.move) - Utility for holding multiple NFT's of the same type. From Diem.
 - [NFT Protocol](https://github.com/Origin-Byte/nft-protocol) - NFT protocol and collection framework. From OriginByte.
-
 
 ### DeFi
 
@@ -167,55 +216,6 @@ The ability to separate blockchain-specific framework logic from the generic fun
 ### Miscellaneous
 
 - [Move-on-EVM](https://github.com/move-language/move/tree/main/language/evm) - Experimental project to compile Move source code to EVM bytecode.
-
-## Tools
-
-- [Move Package Manager](https://github.com/move-language/move/tree/main/language/tools/move-cli) - Like `cargo` or `npm` for Move: single CLI (and corresponding Rust API's for other tools to hook into) for building, running, testing, debugging, and verifying Move [packages](https://move-language.github.io/move/). Maintained by the Move core team.
-- [Move Prover](https://github.com/move-language/move/tree/main/language/move-prover) - Formal verification of user-defined specifications written in Move source code. Maintained by the Move core team.
-- [Move Read/Write Set Analyzer](https://github.com/move-language/move/tree/main/language/tools/read-write-set) - Static analysis tool for computing an overapproximation of the global memory touched by a Move program. Maintained by the Move core team.
-- [Move Playground JS Library](https://github.com/imcoding-online/js-move-playground) - Wrapping [Move Playground by Pontem](https://playground.pontem.network/) as a JavaScript library for browser. You can use it to build your own Move Playground.
-
-## IDEs
-
-- [Move VS Code plugin](https://marketplace.visualstudio.com/items?itemName=move.move-analyzer) - Maintained by the Move core team ([source code](https://github.com/move-language/move/tree/main/language/move-analyzer)).
-- [Move IntelliJ plugin](https://plugins.jetbrains.com/plugin/14721-move-language) - Maintained by the Pontem team ([source code](https://github.com/pontem-network/intellij-move)).
-- [Move Playground](https://playground.pontem.network/) - Like [Remix](https://remix.ethereum.org/) for Move. Alpha version of a Web IDE. See [instructions](https://gist.github.com/borispovod/64b6d23741d8c1f4b0b958a3a74aa68d). Maintained by the Pontem team.
-- [Starcoin IDE](https://marketplace.visualstudio.com/items?itemName=starcoinorg.starcoin-ide) - Maintained by the Starcoin team ([source code](https://github.com/starcoinorg/starcoin-ide)).
-- [Move Vim](https://github.com/rvmelkonian/move.vim) - Maintained by [@rvmelkonian](https://github.com/rvmelkonian/).
-- [move-mode](https://github.com/amnn/move-mode) - Major mode for Emacs maintained by [@amnn](https://github.com/amnn/).
-
-## Package Managers
-- [Movey](https://www.movey.net/) - A crates.io-style repository of Move packages.
-
-### Wallet Adapters
-
-- [Sui Wallet](https://github.com/MystenLabs/sui/tree/main/wallet-adapter) - Sui Wallet Adapter.
-- [Suiet Wallet](https://github.com/suiet/wallet-adapter) - Suiet Wallet Adapter.
-
-### Wallet Kits
-
-- [Suiet Wallet Kit](https://github.com/suiet/wallet-kit) - A package support all Sui wallets with customizable UI.
-
-## Papers
-
-### Language Design
-
-- [Move: A Language With Programmable Resources](https://developers.diem.com/papers/diem-move-a-language-with-programmable-resources/2019-06-18.pdf) - This was the original Move white paper released in 2018. Many aspects of this are now out of date (e.g., the syntax and description of the bytecode instructions), but the first two sections are worth a read for explaining the difficulties of programming with assets and how Move tackles them.
-- [Robust Safety for Move](https://arxiv.org/abs/2110.05043)
-- [The Move Borrow Checker](https://arxiv.org/abs/2205.05181)
-- [Resources: A Safe Language Abstraction for Money](https://arxiv.org/abs/2004.05106)
-
-### Static Analysis and Verification
-
-- [Fast and Reliable Formal Verification of Smart Contracts with the Move Prover](https://arxiv.org/abs/2110.08362)
-- [The Move Prover](https://research.facebook.com/publications/the-move-prover/)
-- [Verification of Programs Written in Libra's Move Language](https://ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/Constantin_M%C3%BCller_MS_Report.pdf)
-- [Exact and Linear-Time Gas-Cost Analysis](https://research.facebook.com/publications/exact-and-linear-time-gas-cost-analysis/)
-
-## Podcasts
-
-- [Move and Sui with Sam Blackshear from Mysten Labs](https://zeroknowledge.fm/228-2/)
-- [Move AMA covering Move origin story](https://twitter.com/i/spaces/1jMKgepNOleJL)
 
 ## SDKs
 - [go-sui-sdk](https://github.com/coming-chat/go-sui-sdk) - Sui Golang SDK.
