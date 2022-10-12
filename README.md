@@ -250,7 +250,4 @@ The ability to separate blockchain-specific framework logic from the generic fun
 ### Whitepaper
 
 - [Aptos Whitepaper](https://aptos.dev/aptos-white-paper/aptos-white-paper-index/) - Whitepaper of the Aptos Framework.
-
-## Contributing
-
-Contributions welcome! Please let me know if you got some tools missing.
+- [Sui Whitepaper](https://github.com/MystenLabs/sui/blob/main/doc/paper/sui.pdf) - Whitepaper of the Sui Framework.
