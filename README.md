@@ -72,15 +72,6 @@ Move is a programming language for writing safe smart contracts originally devel
 ## Package Managers
 - [Movey](https://www.movey.net/) - A crates.io-style repository of Move packages.
 
-### Wallet Adapters
-
-- [Sui Wallet](https://github.com/MystenLabs/sui/tree/main/wallet-adapter) - Sui Wallet Adapter.
-- [Suiet Wallet](https://github.com/suiet/wallet-adapter) - Suiet Wallet Adapter.
-
-### Wallet Kits
-
-- [Suiet Wallet Kit](https://github.com/suiet/wallet-kit) - A package support all Sui wallets with customizable UI.
-
 ## Papers
 
 ### Language Design
@@ -234,6 +225,15 @@ The ability to separate blockchain-specific framework logic from the generic fun
 - [bcs-js](https://github.com/pontem-network/lcs-js) - JavaScript implementation of the [BCS](https://github.com/diem/bcs) serialization scheme used by Move, may be useful for implementing wallets.
 - [ComingChat](https://coming.chat/) - A decentralized social finance/web3 portal.  Supporting public chain wallets, such as Sui and Aptos wallets.
 - [Suiet Wallet](https://github.com/suiet/suiet) - A open-source wallet for Sui. ([Chrome Webstore](https://chrome.google.com/webstore/detail/suiet/khpkpbbcccdmmclmpigdgddabeilkdpd), [Website](https://suiet.app)) 
+
+### Wallet Adapters
+
+- [Sui Wallet](https://github.com/MystenLabs/sui/tree/main/wallet-adapter) - Sui Wallet Adapter.
+- [Suiet Wallet](https://github.com/suiet/wallet-adapter) - Suiet Wallet Adapter.
+
+### Wallet Kits
+
+- [Suiet Wallet Kit](https://github.com/suiet/wallet-kit) - A package support all Sui wallets with customizable UI.
 
 ## Contributing
 
