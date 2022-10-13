@@ -250,3 +250,4 @@ The ability to separate blockchain-specific framework logic from the generic fun
 
 - [Aptos Whitepaper](https://aptos.dev/aptos-white-paper/aptos-white-paper-index/) - Whitepaper of the Aptos Framework.
 - [Sui Whitepaper](https://github.com/MystenLabs/sui/blob/main/doc/paper/sui.pdf) - Whitepaper of the Sui Framework.
+- [Starcoin Whitepaper](https://starcoin.org/en/overview/technology_whitepaper/) - Whitepaper of the Starcoin Framework.
