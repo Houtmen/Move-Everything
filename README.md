@@ -229,6 +229,7 @@ The ability to separate blockchain-specific framework logic from the generic fun
 
 ## Wallets
 
+- [Carpe](https://github.com/OLSF/carpe) - A wallet for the Starcoin blockchain. Maintained by the OLSF team.
 - [StarMask](https://github.com/starcoinorg/starmask-extension) - A wallet for the Starcoin blockchain. Maintained by the Starcoin team ([Chrome Webstore](https://chrome.google.com/webstore/detail/starmask/mfhbebgoclkghebffdldpobeajmbecfk?hl=en)).
 - [Sui Wallet](https://github.com/MystenLabs/sui/tree/main/wallet) - A chrome (v88+) extension wallet for Sui ([Chrome Webstore](https://chrome.google.com/webstore/detail/sui-wallet/opcgpfmipidbgpenhmajoajpbobppdil)).
 - [Pontem Wallet](https://github.com/pontem-network/pontem-wallet) - Wallet extension for Aptos network by the Pontem team ([Chrome Webstore](https://chrome.google.com/webstore/detail/pontem-wallet/phkbamefinggmakgklpkljjmgibohnba)).
