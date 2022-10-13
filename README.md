@@ -1,5 +1,5 @@
 <!--lint disable double-link-->
-# Everything Move 
+# Move Everything 
 
 > Everything about the [Move](https://github.com/move-language/move) programming language.
 
