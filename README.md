@@ -36,6 +36,9 @@ Move is a programming language for writing safe smart contracts originally devel
 - [Wallets](#wallets)
 - [Whitepaper](#whitepaper)
 
+## Blog Posts
+- [Comparing Diem-style Move and Sui Move](https://sui.io/resources-move/why-we-created-sui-move)
+- [Comparing Move and Rust smart contract development](https://medium.com/@kklas/smart-contract-development-move-vs-rust-4d8f84754a8f)
 
 ## Books
 
@@ -43,80 +46,6 @@ Move is a programming language for writing safe smart contracts originally devel
 - [Move Book](https://move-book.com/) - Move book maintained by [@damirka](https://github.com/damirka) ([中文](https://move-book.com/cn/)).
 - [Move Book](https://move.pontem.network/) - Move book maintained by the ([Pontem team](https://pontem.network/)).
 - [Move Patterns](https://www.move-patterns.com/) - A book on Move software design patterns maintained by [@villesundell](https://github.com/villesundell).
-
-## Blog Posts
-- [Comparing Diem-style Move and Sui Move](https://sui.io/resources-move/why-we-created-sui-move)
-- [Comparing Move and Rust smart contract development](https://medium.com/@kklas/smart-contract-development-move-vs-rust-4d8f84754a8f)
-
-## Documentation
-- [0L](https://0l.network/technology/developer-resources/) - Maintaind by 0L team
-- [Aptos](https://aptos.dev/) - Maintaind by Aptos team
-- [Starcoin](https://cookbook.starcoin.org/) - Maintaind by Aptos team
-- [Sui](https://docs.sui.io/) - Maintaind by Mystenlabs team
-
-## IDEs
-
-- [Move IntelliJ plugin](https://plugins.jetbrains.com/plugin/14721-move-language) - Maintained by the Pontem team ([source code](https://github.com/pontem-network/intellij-move)).
-- [move-mode](https://github.com/amnn/move-mode) - Major mode for Emacs maintained by [@amnn](https://github.com/amnn/).
-- [Move Playground](https://playground.pontem.network/) - Like [Remix](https://remix.ethereum.org/) for Move. Alpha version of a Web IDE. See [instructions](https://gist.github.com/borispovod/64b6d23741d8c1f4b0b958a3a74aa68d). Maintained by the Pontem team.
-- [Move Vim](https://github.com/rvmelkonian/move.vim) - Maintained by [@rvmelkonian](https://github.com/rvmelkonian/).
-- [Move VS Code plugin](https://marketplace.visualstudio.com/items?itemName=move.move-analyzer) - Maintained by the Move core team ([source code](https://github.com/move-language/move/tree/main/language/move-analyzer)).
-- [Starcoin IDE](https://marketplace.visualstudio.com/items?itemName=starcoinorg.starcoin-ide) - Maintained by the Starcoin team ([source code](https://github.com/starcoinorg/starcoin-ide)).
-
-## Installation
-
-- [Aptos](https://aptos.dev/cli-tools/aptos-cli-tool/install-aptos-cli/) - Maintaind by Aptos team
-- [Move](https://github.com/move-language/move/tree/main/language/tools/move-cli#installation) - Maintaind by Mystenlabs team
-- [Starcoin](https://cookbook.starcoin.org/docs/getting-started/install/) - Maintaind by Starcoin team
-- [Sui](https://docs.sui.io/build/install) - Maintaind by Mystenlabs team
-
-## Move-Powered Blockchains
-
-- [Sui](https://github.com/MystenLabs/sui) - A next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language (in [devnet](https://medium.com/mysten-labs/sui-devnet-public-release-a2be304ff36b)).
-- [0L](https://github.com/OLSF/libra) - A reference implementation of a neutral replicated state machine. Forked from the Libra/Diem technologies (in [mainnet](https://0l.network/)).
-- [Starcoin](https://github.com/starcoinorg/starcoin) - A smart contract blockchain network that scales by layering (in [mainnet](https://stcscan.io/)).
-- [Aptos](https://github.com/aptos-labs/aptos-core) - Aptos-core strives towards being the safest and most scalable layer one blockchain solution (in [testnet](https://aptos.dev/)).
-- [Pontem](https://github.com/pontem-network/pontem) - Substrate based parachain with MoveVM onboard (in [testnet](https://polkadot.js.org/apps/?rpc=wss://testnet.pontem.network/ws#/explorer)).
-- [Celo](https://github.com/celo-org/celo-blockchain) - Blockchain with EVM and MoveVM ([coming soon](https://www.businesswire.com/news/home/20210921006104/en/Celo-Sets-Sights-On-Becoming-Fastest-EVM-Chain-Through-Collaboration-With-Mysten-Labs)).
-- [Diem](https://github.com/diem/diem) - The original Move based blockchain from Meta (form. Libra by Facebook) (discontinued).
-- [ChainX](https://github.com/chainx-org/ChainX) - Bitcoin's layer2 smart contract network has already supported WASM and EVM, and is supporting MoveVM (in [mainnet](https://scan.chainx.org)).
-
-## Package Managers
-- [Movey](https://www.movey.net/) - A crates.io-style repository of Move packages.
-
-## Papers
-
-### Language Design
-
-- [Move: A Language With Programmable Resources](https://developers.diem.com/papers/diem-move-a-language-with-programmable-resources/2019-06-18.pdf) - This was the original Move white paper released in 2018. Many aspects of this are now out of date (e.g., the syntax and description of the bytecode instructions), but the first two sections are worth a read for explaining the difficulties of programming with assets and how Move tackles them.
-- [Robust Safety for Move](https://arxiv.org/abs/2110.05043)
-- [The Move Borrow Checker](https://arxiv.org/abs/2205.05181)
-- [Resources: A Safe Language Abstraction for Money](https://arxiv.org/abs/2004.05106)
-
-### Static Analysis and Verification
-
-- [Fast and Reliable Formal Verification of Smart Contracts with the Move Prover](https://arxiv.org/abs/2110.08362)
-- [The Move Prover](https://research.facebook.com/publications/the-move-prover/)
-- [Verification of Programs Written in Libra's Move Language](https://ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/Constantin_M%C3%BCller_MS_Report.pdf)
-- [Exact and Linear-Time Gas-Cost Analysis](https://research.facebook.com/publications/exact-and-linear-time-gas-cost-analysis/)
-
-## Podcasts
-
-- [Move and Sui with Sam Blackshear from Mysten Labs](https://zeroknowledge.fm/228-2/)
-- [Move AMA covering Move origin story](https://twitter.com/i/spaces/1jMKgepNOleJL)
-
-## Tools
-
-- [Move Package Manager](https://github.com/move-language/move/tree/main/language/tools/move-cli) - Like `cargo` or `npm` for Move: single CLI (and corresponding Rust API's for other tools to hook into) for building, running, testing, debugging, and verifying Move [packages](https://move-language.github.io/move/). Maintained by the Move core team.
-- [Move Prover](https://github.com/move-language/move/tree/main/language/move-prover) - Formal verification of user-defined specifications written in Move source code. Maintained by the Move core team.
-- [Move Read/Write Set Analyzer](https://github.com/move-language/move/tree/main/language/tools/read-write-set) - Static analysis tool for computing an overapproximation of the global memory touched by a Move program. Maintained by the Move core team.
-- [Move Playground JS Library](https://github.com/imcoding-online/js-move-playground) - Wrapping [Move Playground by Pontem](https://playground.pontem.network/) as a JavaScript library for browser. You can use it to build your own Move Playground.
-
-## Tutorials
-
-- [Implementing, testing, and verifying a fungible token](https://github.com/move-language/move/tree/main/language/documentation/tutorial) - Maintained by the Move core team.
-- [Programming with objects](https://docs.sui.io/build/programming-with-objects) - Maintained by the Sui team.
-- [Move and SmartContract Development](https://starcoinorg.github.io/starcoin-cookbook/docs/move/) - Maintained by the Starcoin team.
 
 ## Community
 
@@ -218,6 +147,76 @@ The ability to separate blockchain-specific framework logic from the generic fun
 ### Miscellaneous
 
 - [Move-on-EVM](https://github.com/move-language/move/tree/main/language/evm) - Experimental project to compile Move source code to EVM bytecode.
+
+## Documentation
+- [0L](https://0l.network/technology/developer-resources/) - Maintaind by 0L team
+- [Aptos](https://aptos.dev/) - Maintaind by Aptos team
+- [Starcoin](https://cookbook.starcoin.org/) - Maintaind by Aptos team
+- [Sui](https://docs.sui.io/) - Maintaind by Mystenlabs team
+
+## IDEs
+
+- [Move IntelliJ plugin](https://plugins.jetbrains.com/plugin/14721-move-language) - Maintained by the Pontem team ([source code](https://github.com/pontem-network/intellij-move)).
+- [move-mode](https://github.com/amnn/move-mode) - Major mode for Emacs maintained by [@amnn](https://github.com/amnn/).
+- [Move Playground](https://playground.pontem.network/) - Like [Remix](https://remix.ethereum.org/) for Move. Alpha version of a Web IDE. See [instructions](https://gist.github.com/borispovod/64b6d23741d8c1f4b0b958a3a74aa68d). Maintained by the Pontem team.
+- [Move Vim](https://github.com/rvmelkonian/move.vim) - Maintained by [@rvmelkonian](https://github.com/rvmelkonian/).
+- [Move VS Code plugin](https://marketplace.visualstudio.com/items?itemName=move.move-analyzer) - Maintained by the Move core team ([source code](https://github.com/move-language/move/tree/main/language/move-analyzer)).
+- [Starcoin IDE](https://marketplace.visualstudio.com/items?itemName=starcoinorg.starcoin-ide) - Maintained by the Starcoin team ([source code](https://github.com/starcoinorg/starcoin-ide)).
+
+## Installation
+
+- [Aptos](https://aptos.dev/cli-tools/aptos-cli-tool/install-aptos-cli/) - Maintaind by Aptos team
+- [Move](https://github.com/move-language/move/tree/main/language/tools/move-cli#installation) - Maintaind by Mystenlabs team
+- [Starcoin](https://cookbook.starcoin.org/docs/getting-started/install/) - Maintaind by Starcoin team
+- [Sui](https://docs.sui.io/build/install) - Maintaind by Mystenlabs team
+
+## Move-Powered Blockchains
+
+- [Sui](https://github.com/MystenLabs/sui) - A next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language (in [devnet](https://medium.com/mysten-labs/sui-devnet-public-release-a2be304ff36b)).
+- [0L](https://github.com/OLSF/libra) - A reference implementation of a neutral replicated state machine. Forked from the Libra/Diem technologies (in [mainnet](https://0l.network/)).
+- [Starcoin](https://github.com/starcoinorg/starcoin) - A smart contract blockchain network that scales by layering (in [mainnet](https://stcscan.io/)).
+- [Aptos](https://github.com/aptos-labs/aptos-core) - Aptos-core strives towards being the safest and most scalable layer one blockchain solution (in [testnet](https://aptos.dev/)).
+- [Pontem](https://github.com/pontem-network/pontem) - Substrate based parachain with MoveVM onboard (in [testnet](https://polkadot.js.org/apps/?rpc=wss://testnet.pontem.network/ws#/explorer)).
+- [Celo](https://github.com/celo-org/celo-blockchain) - Blockchain with EVM and MoveVM ([coming soon](https://www.businesswire.com/news/home/20210921006104/en/Celo-Sets-Sights-On-Becoming-Fastest-EVM-Chain-Through-Collaboration-With-Mysten-Labs)).
+- [Diem](https://github.com/diem/diem) - The original Move based blockchain from Meta (form. Libra by Facebook) (discontinued).
+- [ChainX](https://github.com/chainx-org/ChainX) - Bitcoin's layer2 smart contract network has already supported WASM and EVM, and is supporting MoveVM (in [mainnet](https://scan.chainx.org)).
+
+## Package Managers
+- [Movey](https://www.movey.net/) - A crates.io-style repository of Move packages.
+
+## Papers
+
+### Language Design
+
+- [Move: A Language With Programmable Resources](https://developers.diem.com/papers/diem-move-a-language-with-programmable-resources/2019-06-18.pdf) - This was the original Move white paper released in 2018. Many aspects of this are now out of date (e.g., the syntax and description of the bytecode instructions), but the first two sections are worth a read for explaining the difficulties of programming with assets and how Move tackles them.
+- [Robust Safety for Move](https://arxiv.org/abs/2110.05043)
+- [The Move Borrow Checker](https://arxiv.org/abs/2205.05181)
+- [Resources: A Safe Language Abstraction for Money](https://arxiv.org/abs/2004.05106)
+
+### Static Analysis and Verification
+
+- [Fast and Reliable Formal Verification of Smart Contracts with the Move Prover](https://arxiv.org/abs/2110.08362)
+- [The Move Prover](https://research.facebook.com/publications/the-move-prover/)
+- [Verification of Programs Written in Libra's Move Language](https://ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/Constantin_M%C3%BCller_MS_Report.pdf)
+- [Exact and Linear-Time Gas-Cost Analysis](https://research.facebook.com/publications/exact-and-linear-time-gas-cost-analysis/)
+
+## Podcasts
+
+- [Move and Sui with Sam Blackshear from Mysten Labs](https://zeroknowledge.fm/228-2/)
+- [Move AMA covering Move origin story](https://twitter.com/i/spaces/1jMKgepNOleJL)
+
+## Tools
+
+- [Move Package Manager](https://github.com/move-language/move/tree/main/language/tools/move-cli) - Like `cargo` or `npm` for Move: single CLI (and corresponding Rust API's for other tools to hook into) for building, running, testing, debugging, and verifying Move [packages](https://move-language.github.io/move/). Maintained by the Move core team.
+- [Move Prover](https://github.com/move-language/move/tree/main/language/move-prover) - Formal verification of user-defined specifications written in Move source code. Maintained by the Move core team.
+- [Move Read/Write Set Analyzer](https://github.com/move-language/move/tree/main/language/tools/read-write-set) - Static analysis tool for computing an overapproximation of the global memory touched by a Move program. Maintained by the Move core team.
+- [Move Playground JS Library](https://github.com/imcoding-online/js-move-playground) - Wrapping [Move Playground by Pontem](https://playground.pontem.network/) as a JavaScript library for browser. You can use it to build your own Move Playground.
+
+## Tutorials
+
+- [Implementing, testing, and verifying a fungible token](https://github.com/move-language/move/tree/main/language/documentation/tutorial) - Maintained by the Move core team.
+- [Programming with objects](https://docs.sui.io/build/programming-with-objects) - Maintained by the Sui team.
+- [Move and SmartContract Development](https://starcoinorg.github.io/starcoin-cookbook/docs/move/) - Maintained by the Starcoin team.
 
 ## SDKs
 - [go-sui-sdk](https://github.com/coming-chat/go-sui-sdk) - Sui Golang SDK.
