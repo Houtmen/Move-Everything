@@ -60,6 +60,10 @@ Move is a programming language for writing safe smart contracts originally devel
 
 Code written in Move.
 
+### Aptos code examples
+
+- [Fungible token examples](https://github.com/aptos-labs/aptos-core/tree/main/aptos-move/move-examples) - Mutiple code example Aptos Move contract made by Aptos Labs.
+
 ### Fungible Tokens
 
 - [Fungible token examples](https://github.com/MystenLabs/sui/tree/main/sui_programmability/examples/fungible_tokens) - Multiple example token implementations from Sui.
